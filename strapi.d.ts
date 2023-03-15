@@ -40,9 +40,7 @@ export declare namespace Strapi {
 		url: string,
 		previewUrl: string | null,
 		provider: string,
-		provider_metadata: string | null,
-		createdAt: string,
-		updatedAt: string
+		provider_metadata: string | null
 	}
 
 	type ImageFormat = {
