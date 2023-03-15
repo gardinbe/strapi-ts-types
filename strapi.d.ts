@@ -1,5 +1,5 @@
 export declare namespace Strapi {
-	type Request = {
+	type RequestParams = {
 		populate: number | string,
 		[key: string]: any
 	}
