@@ -1,4 +1,6 @@
-export declare namespace Strapi {
+export default Strapi;
+
+declare namespace Strapi {
 	type RequestParams = {
 		populate: number | string,
 		[key: string]: any
@@ -21,7 +23,7 @@ export declare namespace Strapi {
 		publishedAt: string
 	} & T>
 
-	type Image = { //not a publishable item!
+	export type Image = { //not a publishable item!
 		name: string,
 		alternativeText: string | null,
 		caption: string | null,
