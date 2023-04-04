@@ -1,2 +1,2 @@
 # strapi-ts-types
-I couldn't immediately find the types for Strapi api responses. So I made them
+Couldnt immediately find the types for Strapi api responses, so I made them
