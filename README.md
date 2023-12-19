@@ -1,5 +1,5 @@
 # strapi-ts-types
-A straight forward typing scheme for the Strapi API. Used to quickly type up requests and responses.
+A basic typing scheme for the Strapi API. Used to quickly type up requests and responses.
 
 ### Implementation example
 
