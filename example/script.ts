@@ -1,19 +1,4 @@
-# strapi-ts-types
-
-## What is this?
-
-An easy-to-use typing scheme for Strapi's API.
-
-Used to quickly and effectively type up requests and responses.
-
-If you want to use it, just copy and paste the entire `/strapi-types` folder into your project, and import from there.
-
-## An example
-
-Please [see the example here](example).
-
-```typescript
-import { Collection, SingleType, StrapiRequestParams, StrapiResponse } from "../types";
+import { Collection, SingleType, StrapiRequestParams, StrapiResponse } from "../strapi-types";
 import { User } from "./strapi-data-types";
 import { HomePage } from "./strapi-data-types/single-types/home-page";
 declare const qs: any; //https://www.npmjs.com/package/qs
@@ -83,4 +68,3 @@ export const getUser = async (id: string | number) => {
 		strapiFetch<SingleType<User>>(`users/${id}`, { populate: "deep" })
 	).data;
 };
-```
